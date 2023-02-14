@@ -1,0 +1,28 @@
+{
+  "name": "openride",
+  "version": "1.0.0",
+  "description": "Easily launch your own carpooling instance and connect to the open ride fediverse.",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/19hours/openride.git"
+  },
+  "author": "Kevin Chu",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/19hours/openride/issues"
+  },
+  "homepage": "https://github.com/19hours/openride#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.13.0",
+    "ts-node": "^10.9.1"
+  }
+}
